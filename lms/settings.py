@@ -158,13 +158,13 @@ cloudinary.config(
 
 print(os.getenv('CLOUDINARY_CLOUD_NAME'))
 
-CORS_ALLOW_ALL_ORIGINS = True
 
-#CORS_ALLOWED_ORIGINS = [
-    #"http://localhost:5173",
-    #"https://umemeswahili.co.tz",
-    #"https://lms-0djt.onrender.com",
-#]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://umemeswahili.co.tz",
+    "https://lms-0djt.onrender.com",
+]
 CORS_ALLOW_HEADERS = [
     "accept",
     "authorization",
