@@ -166,7 +166,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://chand.localhost:5173",
     "https://umemeswahili.co.tz",
     "https://lms-0djt.onrender.com",
-    "https://<tenant>.lms-dj0t.onrender.com",
+    "https://*.lms-0djt.onrender.com",
 ]
 CORS_ALLOW_HEADERS = [
     "accept",
