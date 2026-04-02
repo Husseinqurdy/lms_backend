@@ -162,8 +162,11 @@ print(os.getenv('CLOUDINARY_CLOUD_NAME'))
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://must.localhost:5173",
+    "http://chand.localhost:5173",
     "https://umemeswahili.co.tz",
     "https://lms-0djt.onrender.com",
+    "https://<tenant>.lms-dj0t.onrender.com",
 ]
 CORS_ALLOW_HEADERS = [
     "accept",
